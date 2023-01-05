@@ -5,7 +5,6 @@ package frames;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author PC
@@ -45,13 +44,13 @@ public class Student extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(240, 240, 240));
         setLocation(new java.awt.Point(400, 225));
         setMinimumSize(new java.awt.Dimension(700, 450));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(700, 450));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -103,7 +102,6 @@ public class Student extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save-icon--1.png"))); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,7 +111,6 @@ public class Student extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 400, -1, -1));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red-x-mark-transparent-background-3.png"))); // NOI18N
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,8 +120,11 @@ public class Student extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 400, -1, -1));
 
         jLabel6.setBackground(new java.awt.Color(240, 240, 240));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/123456.png"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 700, 470));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/123456.png"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 450));
+
+        jLabel7.setText("jLabel7");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 70, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -138,23 +138,22 @@ public class Student extends javax.swing.JFrame {
         String studentID = jTextField1.getText();
         String name = jTextField2.getText();
         String fatherName = jTextField3.getText();
-        String courseName = (String)jComboBox1.getSelectedItem();
-        String branchName = (String)jComboBox2.getSelectedItem();
-        
+        String courseName = (String) jComboBox1.getSelectedItem();
+        String branchName = (String) jComboBox2.getSelectedItem();
+
         try {
             Connection con = ConnectionProvider.getCon();
             Statement st = con.createStatement();
-            st.executeUpdate("insert into student values('"+studentID+"','"+name+"','"+fatherName+"','"+courseName+"','"+branchName+"')");
+            st.executeUpdate("insert into student values('" + studentID + "','" + name + "','" + fatherName + "','" + courseName + "','" + branchName + "')");
             JOptionPane.showMessageDialog(null, "Successfully updated");
             setVisible(false);
             new Student().setVisible(true);
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Student Id already exist");
             setVisible(false);
             new Student().setVisible(true);
         }
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -209,6 +208,7 @@ public class Student extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
