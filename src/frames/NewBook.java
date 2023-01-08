@@ -12,12 +12,12 @@ package frames;
 import java.sql.*;
 import Project.ConnectionProvider;
 import javax.swing.JOptionPane;
-public class newBooks extends javax.swing.JFrame {
+public class NewBook extends javax.swing.JFrame {
 
     /**
      * Creates new form newBooks
      */
-    public newBooks() {
+    public NewBook() {
         initComponents();
     }
 
@@ -94,6 +94,7 @@ public class newBooks extends javax.swing.JFrame {
         getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 310, 200, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/Save.png"))); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +104,7 @@ public class newBooks extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 380, 85, 25));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/Close.png"))); // NOI18N
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,13 +118,14 @@ public class newBooks extends javax.swing.JFrame {
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, 30));
 
         jLabel6.setBackground(new java.awt.Color(240, 240, 240));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/123456.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/BackgroundFrame.png"))); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 700, 490));
 
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 70, -1, -1));
 
-        pack();
+        setSize(new java.awt.Dimension(700, 452));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -141,7 +144,7 @@ public class newBooks extends javax.swing.JFrame {
              st.executeUpdate("insert into book values('"+bookID+"','"+name+"','"+publisher+"','"+price+"','"+publisherYear+"')");
              JOptionPane.showMessageDialog(null,"Successfully Updated");
              setVisible(false);
-             new newBooks().setVisible(true);
+             new NewBook().setVisible(true);
         
         }
         
@@ -151,7 +154,7 @@ public class newBooks extends javax.swing.JFrame {
              System.out.println(e);
              JOptionPane.showMessageDialog(null,"Book ID already exist ");
              setVisible(false);
-             new newBooks().setVisible(true);
+             new NewBook().setVisible(true);
         
         }
         
@@ -183,20 +186,23 @@ public class newBooks extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(newBooks.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(NewBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(newBooks.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(NewBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(newBooks.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(NewBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(newBooks.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(NewBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new newBooks().setVisible(true);
+                new NewBook().setVisible(true);
             }
         });
     }
