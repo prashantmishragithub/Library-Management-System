@@ -66,11 +66,11 @@ public class Student extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 220, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setText("Branch Name");
+        jLabel4.setText("Course Name");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel5.setText("Course Name");
+        jLabel5.setText("Branch Name");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 92, -1));
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 153));
@@ -92,12 +92,12 @@ public class Student extends javax.swing.JFrame {
 
         jComboBox1.setBackground(new java.awt.Color(255, 255, 153));
         jComboBox1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "B.Tech" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "B. Tech", " " }));
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 280, 200, -1));
 
         jComboBox2.setBackground(new java.awt.Color(255, 255, 153));
         jComboBox2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CSE", "IT", "MECHANICAL", "CIVIL" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mechanical", "Civil", "Electrical", "C.S", "I.T", "E.C", "E.N" }));
         getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 340, 200, -1));
 
         jButton1.setBackground(new java.awt.Color(204, 204, 255));

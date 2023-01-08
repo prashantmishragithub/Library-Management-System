@@ -50,7 +50,6 @@ public class newBooks extends javax.swing.JFrame {
         setLocation(new java.awt.Point(400, 225));
         setMinimumSize(new java.awt.Dimension(700, 450));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(700, 450));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -58,8 +57,8 @@ public class newBooks extends javax.swing.JFrame {
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, 68, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 68, -1));
+        jLabel2.setText("Book Name");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 130, 90, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("Publisher");
@@ -118,9 +117,6 @@ public class newBooks extends javax.swing.JFrame {
 
         jLabel6.setBackground(new java.awt.Color(240, 240, 240));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames/123456.png"))); // NOI18N
-        jLabel6.setMaximumSize(new java.awt.Dimension(700, 450));
-        jLabel6.setMinimumSize(new java.awt.Dimension(700, 450));
-        jLabel6.setPreferredSize(new java.awt.Dimension(700, 450));
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 700, 490));
 
         jLabel7.setText("jLabel7");
