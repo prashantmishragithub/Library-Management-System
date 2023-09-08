@@ -211,7 +211,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/Save.png"/>
+          <Image iconType="3" name="/codes_and_images/Save.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Save"/>
       </Properties>
@@ -230,7 +230,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/Close.png"/>
+          <Image iconType="3" name="/codes_and_images/Close.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Close"/>
       </Properties>
@@ -246,7 +246,7 @@
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/BackgroundFrame.png"/>
+          <Image iconType="3" name="/codes_and_images/BackgroundFrame.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel6"/>
       </Properties>

@@ -1,4 +1,4 @@
-package frames_and_icons;
+package codes_and_images;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -10,6 +10,7 @@ package frames_and_icons;
  * @author PC
  */
 import java.sql.*;
+import Project.ConnectionProvider;
 import Project.ConnectionProvider;
 import java.awt.HeadlessException;
 import javax.swing.JOptionPane;
@@ -95,7 +96,7 @@ public class NewBook extends javax.swing.JFrame {
         getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 280, 200, -1));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Save.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Save.png"))); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,7 +106,7 @@ public class NewBook extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 350, 90, 25));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Close.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Close.png"))); // NOI18N
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,7 +120,7 @@ public class NewBook extends javax.swing.JFrame {
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 220, -1, 30));
 
         jLabel6.setBackground(new java.awt.Color(240, 240, 240));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/BackgroundFrame.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/BackgroundFrame.png"))); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 700, 490));
 
         jLabel7.setText("jLabel7");

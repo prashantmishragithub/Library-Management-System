@@ -154,7 +154,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/Returnbook(1).png"/>
+          <Image iconType="3" name="/codes_and_images/Returnbook(1).png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Return"/>
       </Properties>
@@ -173,7 +173,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/Close.png"/>
+          <Image iconType="3" name="/codes_and_images/Close.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Close"/>
       </Properties>
@@ -192,7 +192,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/search.png"/>
+          <Image iconType="3" name="/codes_and_images/search.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Search"/>
       </Properties>
@@ -208,7 +208,7 @@
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/frames_and_icons/BackgroundFrame.png"/>
+          <Image iconType="3" name="/codes_and_images/BackgroundFrame.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel5"/>
       </Properties>

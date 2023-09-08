@@ -2,13 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package frames_and_icons;
+package codes_and_images;
 /**
  *
  * @author PC
  */
 import java.text.SimpleDateFormat;
 import java.sql.*;
+import Project.ConnectionProvider;
 import Project.ConnectionProvider;
 import javax.swing.JOptionPane;
 
@@ -74,7 +75,7 @@ public class Issue extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(255, 255, 204));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Issuebook.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Issuebook.png"))); // NOI18N
         jButton1.setText("Issue");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,7 +86,7 @@ public class Issue extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(255, 255, 204));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Close.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Close.png"))); // NOI18N
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,7 +98,7 @@ public class Issue extends javax.swing.JFrame {
         getContentPane().add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 242, 240, 30));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 204));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/BackgroundFrame.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/BackgroundFrame.png"))); // NOI18N
         jLabel5.setText("jLabel5");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
 

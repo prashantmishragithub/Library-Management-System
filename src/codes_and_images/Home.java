@@ -1,4 +1,4 @@
-package frames_and_icons;
+package codes_and_images;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -40,7 +40,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Studentadd.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Studentadd.png"))); // NOI18N
         jButton1.setText("New Student");
         jButton1.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -51,7 +51,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 190, 60));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Newbook.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Newbook.png"))); // NOI18N
         jButton2.setText("New Book");
         jButton2.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -62,7 +62,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 170, 60));
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Statics.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Statics.png"))); // NOI18N
         jButton3.setText("Statistics");
         jButton3.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 40, -1, -1));
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/ReturnBook.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/ReturnBook.png"))); // NOI18N
         jButton4.setText("Return Book");
         jButton4.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 40, 170, -1));
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Issuebook.png"))); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Issuebook.png"))); // NOI18N
         jButton5.setText("Issue Book");
         jButton5.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -95,7 +95,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 40, -1, -1));
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Exit(1).png"))); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Exit(1).png"))); // NOI18N
         jButton6.setText("Logout");
         jButton6.setPreferredSize(new java.awt.Dimension(159, 59));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -105,7 +105,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 40, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frames_and_icons/Library_Book.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/codes_and_images/Library_Book.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
